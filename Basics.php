@@ -34,6 +34,7 @@ $friends = array(
 
 buddyArray($friends);
 
-print_r($friends); // This will now have changed 'john' to 'potato'
+print_r($friends); // This will now have changed 'matthew' to 'buddy'
+
 ?>
 
