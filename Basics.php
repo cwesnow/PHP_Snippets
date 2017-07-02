@@ -8,7 +8,21 @@
 */
 
 // Basic Operations
+
+// Print - As Is, or Literal Output
 echo 'The quick brown fox jumped over the lazy dog!';
+
+/* Escape Characters
+     \n - New Line
+     \t - Tab
+     \r - Return
+     \" - Double Quote
+     \' - Single Quote
+*/
+// Print - PHP Parser, translates Escape Characters
+echo "Did the \"quick\" brown fox jump over the \"lazy\" dog?";
+// Outputs: Did the "quick" brown fox jump over the "lazy" dog?
+// Note: Web Browsers don't parse \n or Line Feed
 
 // Ternary - Condition ? True : False
 $number = (!empty($_GET['name'])? $_GET['name'] : 'Default: Name')
