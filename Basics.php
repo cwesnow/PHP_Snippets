@@ -1,4 +1,14 @@
 <?PHP
+/* History
+     PHP means PHP Hypertext Preprocessor
+    1.0 - 1994 by Rasmus Lerdorf, (PHP/FI 1.0)
+    3.0 - 1997 Powerful & Consistent Syntax, and Developer Enhancements & Extensions
+    4.0 - 2000 Performance, Reliability, Sessions and Object-Oriented features
+    5.0 - 2004 Better Object Model, Security, Performance, Tools, DB Access Layer and Integrated Engine, and Exception Handling
+*/
+
+// Basic Operations
+echo 'The quick brown fox jumped over the lazy dog!';
 
 // Ternary - Condition ? True : False
 $number = (!empty($_GET['name'])? $_GET['name'] : 'Default: Name')
